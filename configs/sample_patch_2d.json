@@ -1,0 +1,29 @@
+{
+    "structure": {
+      "substrate_eps": 3.0,
+      "substrate_height": 3.0,
+      "patch_width": 4.0,
+      "patch_height": 0.2,
+      "patch_center_x": 0.0,
+      "patch_center_y": -0.5
+    },
+    "sim": {
+      "cell_sx": 16,
+      "cell_sy": 10,
+      "dpml": 1.0,
+      "resolution": 10,
+      "fcen": 1.0,
+      "df": 0.8,
+      "nfreq": 201,
+      "sim_time": 200
+    },
+    "quality": {
+      "max_nan_ratio": 0.0,
+      "require_refine_confirmation": true,
+      "drift_threshold": 0.01,
+      "max_trials": 4,
+      "resonance_mode": "peak",
+      "band_margin": 0.15
+    }
+  }
+  

@@ -1,0 +1,27 @@
+{
+  "name": "radiator_near_pml",
+  "structure": {
+    "kind": "radiator_near_pml",
+    "source_edge_gap": 0.3,
+    "mock_dpml_needed": 2.0,
+    "mock_f_true": 1.0
+  },
+  "sim": {
+    "cell_sx": 14,
+    "cell_sy": 10,
+    "dpml": 0.3,
+    "resolution": 12,
+    "fcen": 1.0,
+    "df": 0.6,
+    "nfreq": 201,
+    "sim_time": 200
+  },
+  "quality": {
+    "max_nan_ratio": 0.0,
+    "require_refine_confirmation": true,
+    "drift_threshold": 0.01,
+    "max_trials": 6,
+    "resonance_mode": "peak",
+    "band_margin": 0.15
+  }
+}

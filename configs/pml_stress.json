@@ -1,0 +1,30 @@
+{
+  "name": "pml_stress",
+  "structure": {
+    "kind": "cavity_near_pml",
+    "cavity_w": 1.5,
+    "cavity_h": 1.5,
+    "cavity_eps": 6.0,
+    "cavity_center_x": 0.0,
+    "mock_dpml_needed": 1.0,
+    "mock_f_true": 0.8
+  },
+  "sim": {
+    "cell_sx": 10,
+    "cell_sy": 10,
+    "dpml": 0.05,
+    "resolution": 12,
+    "fcen": 0.8,
+    "df": 0.5,
+    "nfreq": 201,
+    "sim_time": 300
+  },
+  "quality": {
+    "max_nan_ratio": 0.0,
+    "require_refine_confirmation": true,
+    "drift_threshold": 0.01,
+    "max_trials": 6,
+    "resonance_mode": "peak",
+    "band_margin": 0.15
+  }
+}

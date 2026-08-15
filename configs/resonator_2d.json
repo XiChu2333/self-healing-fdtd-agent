@@ -1,0 +1,29 @@
+{
+  "name": "resonator_2d",
+  "structure": {
+    "kind": "resonator_2d",
+    "cavity_w": 2.0,
+    "cavity_h": 2.0,
+    "cavity_eps": 12.0,
+    "mock_decay_time": 600.0,
+    "mock_f_true": 0.9
+  },
+  "sim": {
+    "cell_sx": 12,
+    "cell_sy": 12,
+    "dpml": 1.0,
+    "resolution": 12,
+    "fcen": 0.9,
+    "df": 0.4,
+    "nfreq": 201,
+    "sim_time": 200
+  },
+  "quality": {
+    "max_nan_ratio": 0.0,
+    "require_refine_confirmation": true,
+    "drift_threshold": 0.01,
+    "max_trials": 6,
+    "resonance_mode": "peak",
+    "band_margin": 0.15
+  }
+}
