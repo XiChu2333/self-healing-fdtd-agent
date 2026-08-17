@@ -3,12 +3,10 @@
 Diagnostic-guided repair of FDTD electromagnetic simulations using a
 constrained LLM controller.
 
-This repository accompanies the manuscript *"Diagnostic-Guided Repair of
-FDTD Simulations Using a Constrained LLM Controller"* (X. Chu and Y. Hou,
-submitted to the *IEEE Journal on Multiscale and Multiphysics Computational
-Techniques*, 2026), which extends our ICCEM 2026 conference paper
+This repository accompanies our ICCEM 2026 conference paper
 *"A Lightweight Agentic Framework for Self-Healing Computational
-Electromagnetics Simulations."*
+Electromagnetics Simulations"* (X. Chu and Y. Hou, Shanghai, April 2026)
+and its extended journal version, currently under submission.
 
 ## What it does
 
