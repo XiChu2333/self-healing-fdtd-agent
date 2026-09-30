@@ -5,8 +5,7 @@ constrained LLM controller.
 
 This repository accompanies our ICCEM 2026 conference paper
 *"A Lightweight Agentic Framework for Self-Healing Computational
-Electromagnetics Simulations"* (X. Chu and Y. Hou, Shanghai, April 2026)
-and its extended journal version, currently under submission.
+Electromagnetics Simulations"* (X. Chu and Y. Hou, Shanghai, April 2026).
 
 ## What it does
 
@@ -94,7 +93,7 @@ failure mode; it is for development only, never for reported results.
 
 ## Citation
 
-Until the journal version is available, please cite the conference paper:
+Please cite the conference paper:
 
 ```bibtex
 @inproceedings{chu2026selfhealing,
